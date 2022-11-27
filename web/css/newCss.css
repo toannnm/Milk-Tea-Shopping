@@ -1,0 +1,164 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway";
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    height:100vh;
+    background-size:cover;
+    min-height:100vh;
+    overflow:hidden;
+    background-repeat: no-repeat;
+}
+
+
+.login-form {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:410px;
+    height:460px;
+    background:rgba(0,0,0,0.55);
+}
+.login-form .form-header {
+    position:absolute;
+    top:10px;
+    width:100%;
+    height:140px;
+}
+.login-form .form-header .user-logo {
+    position:absolute;
+    width:120px;
+    height:120px;
+    background:#a5414b;
+    left:50%;
+    transform:translate(-50%,-50px);
+    border-radius:50%;
+    overflow:hidden;
+    box-shadow:inset 0px 0px 3px 15px #b5525c;
+}
+.login-form .form-header .user-logo img {
+    margin:10px;
+    width:100px;
+    height:100px;
+}
+.login-form .form-header .title {
+    padding:50px 0px 50px;
+    display:inline-block;
+    font-size:30px;
+    font-weight:600;
+    color:#f1f1f1;
+    margin-top:30px;
+    margin-left:60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:200;
+    text-transform:uppercase;
+    border-bottom:10px solid #f1f1f1;
+}
+.login-form .form-container {
+    position:relative;
+    top:130px;
+    padding:0px 50px;
+    height:calc(100% - 150px);
+    text-align:center;
+}
+.login-form .form-container .form-element {
+    position:relative;
+    margin:20px 0px;
+}
+.login-form .form-container .form-element label {
+    position:absolute;
+    top:50%;
+    transform:translate(10px, -50%);
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    text-align:center;
+    line-height:40px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 18px;
+    transition: .3s;
+}
+.form-element>label{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #38d39f;
+    font-size: 18px;
+    transition: .3s;
+}
+.login-form .form-container .form-element input {
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+.btn  {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, cadetblue, #38d39f, cadetblue);
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .5s;
+    font-weight:600;
+}
+.btn:hover {
+    background-position: right;
+}
+
+a:hover {
+    color: #38d39f;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #999;
+    transition: .3s;
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    line-height: 37px;
+    bottom: 10px;
+    margin: -10px -10px;
+    padding: 0px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+input:focus {
+    background:#38d39f;
+}
+
+
+
+
+
+
